@@ -1,62 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página - Módulo I - Primeiros Passos com HTML</title>
-</head>
-<body>
-    <h1>Módulo 1 - Primeiros Passos com HTML</h1>
-    <hr />
+<html>
+    <head>
+        <title>Desafio 1 HTML</title>
+        </head>
+    <body>
+        <h1>Desafio: Página Web Básica</h1>
+        <h2>Sobre o Projeto</h2>
+        <p>Elaborar um website básico, utilizando as tags aprendidas nas aulas práticas e categorizar os temas que já foram apresentados.</p>
+        <p><strong>Tags já explicadas:</strong>  < h1 > até < h6 >, < p >, < mark >, < small >, < i >, < u >, < strong >, < ol >, < ul >, < li >, < a >, < hr >, < sub >, < sup >, < blockquote >. </p>
+        <p><strong>Novas tags sugeridas:</strong> < font >, < del >, < abbr > . </p >
+        
+        <hr/>
 
-    <h2>Índice</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste índice você deve colocar os tópicos que mais entendeu. Estes apenas são sugestões.</p>
-    <ul>
-        <li><a href="#">História dos computadores</a></li>
-        <li><a href="#">O que são <i>Clients</i>?</a></li>
-        <li><a href="#">O que são <i>Servers</i>?</a></li>
-        <li><a href="#">Como é uma estrutura básica de um HTML?</a></li>
-        <li><a href="#">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
-        <li><a href="#">Links de referências</a></li>
-    </ul>
+        <h2 style="font-family:'Segoe UI'; color: rgb(4, 0, 56);"> Assuntos</h2>
+        <ul>
+            <li><h4><a href="#navegadores">Navegadores</h4></a></li>
+            <li><h4><a href="#aplicacao">Aplicação e Aplicação Web</h4></a></li>
+            <li><h4><a href="#servers">Servers</h4></a></li>
+            <li><h4><a href="#referencias">Referências</h4></a></li>
+        </ul>
 
-    <h2>História dos computadores</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+        <h3 id="navegadores" style="font-family:'Segoe UI'; color: rgb(4, 0, 56);">Navegadores</h3>
+        <p>Navegadores ou "browsers" são programas criados para executar arquivos ou sites e temos como exemplo os navegadores abaixo, que estão presente em nosso dia a dia: </p>
+        <img width="500" src="https://www.tekimobile.com/wp-content/uploads/2022/07/7-melhores-navegadores-em-2022.webp" alt="logo-navegadores">
 
-    <h2>O que são <i>Clients</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+        <h3 id="aplicacao" style="font-family:'Segoe UI'; color: rgb(4, 0, 56);">Diferença entre Aplicação e Aplicação Web</h3>
+            <ul>
+                <li><strong> Aplicações </strong> requerem o download de algum aplicativo no dispositivo para que possa ser acessada</li>
+                <li><strong> Aplicações Web </strong>
+                    não necessitam desse download, e podem ser acessadas através de navegadores que possuem a internet como meio de comunicação entre
+                    cliente e server.</li>
+            </ul>
+        <h3 id="servers" style="font-family:'Segoe UI'; color: rgb(4, 0, 56);">Sobre os <i>Servers</i></h3>
+        <p>O conteúdo apresentado pela <strong><abbr title="Digital Innovation One">DIO</abbr></strong> foi bem didático, mostrando as possibilidades dos <i>servers</i>, podendo como exemplo 
+        obter essas estruturas:</p>
+            <ul>
+                <li><i>Clients - Proxy - Internet - Server</i></li>
+                <li><i>Clients - Firewall - Internet - Server</i></li>
+                <li><i>Clients - Internet - Server</i></li>
+                <li><i>Clients - Server</i> <strong><small>em uma estrutura Intranet</small></strong></li>
+            </ul>
+        <p>Os <i>Servers</i> podem ser classificados e no projeto pode ser sim que se use mais de um para cumprir o objetivo da aplicação web.</p>
+        
+        <h3 style="font-family:'Segoe UI'; color: rgb(4, 0, 56);">Linguagens<i> Client Side</i> e <i>Server Side</i></h3>
+        <p>A diferença entre os dois termos se da pelas linguagens utilizadas para comunicação com cada "lado".</p>
+        <ul>
+            <li><i>Client Side</i> temos linguagens como JavaScript, CSS, HTML para comunicação com o <i>Browsers</i>.</li>  
+            <li>Em <i>Server Side</i> temos as linguagens que se comunicam com os servidores sendo elas elas: PHP, Ruby, JavaScript, C#.</li>
+        </ul>
+        <p><strong><mark>O JavaScript pode ser executado <del>de um lado</del> dos dois lados.</mark></strong></p>
 
-    <h2>O que são <i>Servers</i>?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
+        <h3 id="referencias" style="font-family:'Segoe UI'; color: rgb(4, 0, 56);">Referências</h3>
+        <ol>
+            <li><a href="https://www.i-tecnico.pt/o-que-sao-navegadores/" target="_blank"> i-Técnico</li></a>
+            <li><a href="https://www.controle.net/faq/o-que-sao-servidores" target="_blank">Controle Net</li></a>
+            <li><a href="https://tableless.github.io/iniciantes/manual/obasico/o-que-front-back.html" target="_blank">Getting Started </li></a>
+            <li><a href="https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica?gclid=CjwKCAjws--ZBhAXEiwAv-RNL_Zy0tGEmcgEL5FuCRoias0nlkfHTIJHyIbZCqD_5N6b2p1s8bi2ThoC11QQAvD_BwE" target="_blank"> Alura </li></a>
+            <li><a href="https://www.w3schools.com" target="_blank"> w3schools</li></a>
+        </ol>
 
-    <h2>Como é uma estrutura básica de um HTML?</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Entendendo a diferença entre listas ordenadas e não ordenadas</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Neste trecho, coloque com suas palavras o que entendeu sobre o assunto. 
-       Não esqueça de colocar links para outros sites e também de formatar o texto com 
-       <strong>negrito</strong>, <i>itálico</i> e <u>sublinhado</u> quando necessário.</p>
-    <p>Não esqueça também de colocar o link para voltar até o índice. (Lembra das âncoras?)</p>
-
-    <h2>Links de referências</h2>
-    <p><strong><u>INSTRUÇÕES:</u> </strong>Coloque links para outras páginas que falam sobre estes assuntos. Não esquece de que precisa abrir em outra aba/janela do navegador.</p>
-    <ul>
-        <li><a href="#">http://dio.me</a></li>
-        <li><a href="#">http://w3c.org</a></li>
-    </ul>
-
-</body>
+        <h5>Esta página foi criada em 04/10/2022 por João Vitor Cardoso.</h5>
+    </body>
 </html>
